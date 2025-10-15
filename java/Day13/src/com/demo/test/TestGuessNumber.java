@@ -15,6 +15,7 @@ public class TestGuessNumber {
 			if(num==cnum) {
 				System.out.println("Yes, Congrats ! Your guess it right");
 				break;
+				
 				}
 			if(num<cnum) {
 				throw new WrongNumberException("No you missed it ! your number is smaller");
