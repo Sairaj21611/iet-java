@@ -9,9 +9,6 @@ public class TestFileHandling {
 		try (FileInputStream fs = new FileInputStream("myfile.txt");
 				FileOutputStream os = new FileOutputStream("output.txt")) {
 
-			
-			
-			
 			int i;
 			while ((i = fs.read()) != -1) {
 				os.write(i);
